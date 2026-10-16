@@ -8,14 +8,17 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@500;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alexandria:wght@500;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Manrope:wght@400;600;700&display=swap"
+    rel="stylesheet">
 
   <style>
     * {
       box-sizing: border-box;
     }
 
-    html, body {
+    html,
+    body {
       margin: 0;
       padding: 0;
       background: #F6F4EE;
@@ -35,7 +38,10 @@
       color: #0A2C25;
     }
 
-    button, input, select, textarea {
+    button,
+    input,
+    select,
+    textarea {
       font-family: inherit;
     }
 
@@ -64,9 +70,9 @@
       position: sticky;
       top: 0;
       z-index: 50;
-      background: rgba(246,244,238,0.97);
+      background: rgba(246, 244, 238, 0.97);
       backdrop-filter: blur(10px);
-      border-bottom: 1px solid rgba(10,44,37,0.10);
+      border-bottom: 1px solid rgba(10, 44, 37, 0.10);
     }
 
     .header-container {
@@ -87,7 +93,7 @@
 
     .lang-btn {
       background: none;
-      border: 1px solid rgba(10,44,37,0.25);
+      border: 1px solid rgba(10, 44, 37, 0.25);
       color: #0A2C25;
       border-radius: 999px;
       padding: 6px 14px;
@@ -153,9 +159,9 @@
       background: #123A31;
       color: #F6F4EE;
       border-radius: 18px;
-      border: 1px solid rgba(217,188,134,0.3);
+      border: 1px solid rgba(217, 188, 134, 0.3);
       padding: 28px 24px 24px;
-      box-shadow: 0 24px 60px rgba(0,0,0,0.25);
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.25);
     }
 
     .form-group {
@@ -202,7 +208,7 @@
     .cc-input {
       width: 80px;
       border: none;
-      border-right: 1px solid rgba(10,44,37,0.15);
+      border-right: 1px solid rgba(10, 44, 37, 0.15);
       background: transparent;
       color: #0A2C25;
       padding: 14px 10px;
@@ -213,7 +219,7 @@
 
     html[dir="ltr"] .cc-input {
       border-right: none;
-      border-left: 1px solid rgba(10,44,37,0.15);
+      border-left: 1px solid rgba(10, 44, 37, 0.15);
     }
 
     .phone-input {
@@ -285,7 +291,8 @@
       <button id="langBtn" class="lang-btn" onclick="toggleLanguage()">English</button>
       <a href="https://wa.me/971504525189" target="_blank" rel="noopener" class="whatsapp-btn">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.38 9.38 0 0 1-1.44-5.01c0-5.19 4.23-9.41 9.42-9.41 2.51 0 4.88.98 6.65 2.76a9.35 9.35 0 0 1 2.75 6.66c0 5.19-4.23 9.41-9.41 9.41zm8.02-17.43A11.27 11.27 0 0 0 12.05.75C5.8.75.72 5.83.72 12.08c0 2 .52 3.95 1.52 5.66L.62 23.25l5.65-1.48a11.3 11.3 0 0 0 5.78 1.47h.01c6.25 0 11.33-5.08 11.33-11.33 0-3.03-1.18-5.87-3.32-8.01z" />
+          <path
+            d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.38 9.38 0 0 1-1.44-5.01c0-5.19 4.23-9.41 9.42-9.41 2.51 0 4.88.98 6.65 2.76a9.35 9.35 0 0 1 2.75 6.66c0 5.19-4.23 9.41-9.41 9.41zm8.02-17.43A11.27 11.27 0 0 0 12.05.75C5.8.75.72 5.83.72 12.08c0 2 .52 3.95 1.52 5.66L.62 23.25l5.65-1.48a11.3 11.3 0 0 0 5.78 1.47h.01c6.25 0 11.33-5.08 11.33-11.33 0-3.03-1.18-5.87-3.32-8.01z" />
         </svg>
         <span id="txt-wa">واتساب</span>
       </a>
@@ -308,12 +315,15 @@
 
       <!-- Form Box -->
       <div id="lead" class="lead-box">
-        
+
         <form id="contactForm" class="form-group">
-          <span style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:700; letter-spacing:0.16em; color:#D9BC86;">
+          <span
+            style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:700; letter-spacing:0.16em; color:#D9BC86;">
             KARISMA PERSONALIZED SMILE
           </span>
-          <h3 id="txt-formTitle" style="margin:0 0 4px; font-family:'Alexandria','Manrope',sans-serif; font-weight:700; font-size:24px; line-height:1.4;">
+
+          <h3 id="txt-formTitle"
+            style="margin:0 0 4px; font-family:'Alexandria','Manrope',sans-serif; font-weight:700; font-size:24px; line-height:1.4;">
             احجز استشارتك الآن
           </h3>
 
@@ -338,12 +348,11 @@
           </label>
           <input type="email" id="email" class="input-field" dir="ltr" placeholder="name@example.com" required>
 
-          <!-- Service / Contact Type -->
+          <!-- Service / Dropdown -->
           <label class="form-label">
             <span id="txt-fDept">نوع الخدمة</span><span class="required">*</span>
           </label>
-          <select id="contactType" class="input-field" style="cursor:pointer;">
-            <option value="Feedback" id="opt-feedback">Feedback</option>
+          <select id="services" class="input-field" style="cursor:pointer;">
             <option value="Hollywood Smile" id="opt-hollywood">ابتسامة هوليود (Hollywood Smile)</option>
             <option value="Dental Implants" id="opt-implants">زراعة اسنان (Dental Implants)</option>
             <option value="Orthodontics" id="opt-ortho">تقويم اسنان (Orthodontics)</option>
@@ -354,7 +363,8 @@
           <label class="form-label">
             <span id="txt-fMsg">الرسالة</span>
           </label>
-          <textarea id="message" class="input-field" rows="3" placeholder="اكتب رسالتك هنا..." style="resize:vertical;"></textarea>
+          <textarea id="message" class="input-field" rows="3" placeholder="اكتب رسالتك هنا..."
+            style="resize:vertical;"></textarea>
 
           <!-- Error Alert -->
           <span id="errorMessage" class="error-msg"></span>
@@ -372,17 +382,139 @@
         <!-- Success Message Container -->
         <div id="successBox" class="success-box">
           <span class="check-icon">✓</span>
-          <h3 id="txt-sentTitle" style="margin:0; font-family:'Alexandria','Manrope',sans-serif; font-weight:700; font-size:22px;">
+          <h3 id="txt-sentTitle"
+            style="margin:0; font-family:'Alexandria','Manrope',sans-serif; font-weight:700; font-size:22px;">
             تم استلام طلبك بنجاح
           </h3>
           <p id="txt-sentBody" style="margin:0; font-size:15px; color:rgba(246,244,238,0.78);">
             شكراً لك، سيتواصل معك الفريق المختص في أقرب وقت.
           </p>
         </div>
-
       </div>
     </div>
   </section>
+
+
+  <footer style="background:#13221F; color:rgba(246,244,238,0.75); font-family:sans-serif; padding:60px 20px 40px;">
+    <div
+      style="max-width:1180px; margin:0 auto; display:flex; flex-wrap:wrap; gap:40px; justify-content:space-between; font-size:14px; line-height:1.6;">
+
+      <!-- Column 1: Brand Logo, Description, Socials -->
+      <div style="flex:1 1 280px; display:flex; flex-direction:column; gap:20px;">
+        <!-- Logo Card -->
+        <div style="background:#FFFFFF; padding:16px; border-radius:12px; width:fit-content; display:inline-block;">
+          <img src="https://www.karismamc.com/images/greemlogo_main.png" alt="Karisma"
+            style="height:50px; display:block;" />
+        </div>
+
+        <p id="txt-footerText" style="margin:0; color:rgba(246,244,238,0.7); max-width:320px;">footer text</p>
+        <div style="display:flex; gap:12px; margin-top:8px;">
+          <a href="https://www.instagram.com/karismamedicalcenter/" target="_blank" rel="noopener noreferrer"
+            style="width:38px; height:38px; border-radius:50%; border:1px solid rgba(246,244,238,0.25); display:flex; align-items:center; justify-content:center; color:#F6F4EE; text-decoration:none; transition:0.2s;">
+            <img src="assets/icons/insta-logo.webp" width="25" alt="">
+          </a>
+
+          <a href="https://www.tiktok.com/@karisma_mc?_r=1" target="_blank" rel="noopener noreferrer"
+            style="width:38px; height:38px; border-radius:50%; border:1px solid rgba(246,244,238,0.25); display:flex; align-items:center; justify-content:center; color:#F6F4EE; text-decoration:none; transition:0.2s;">
+            <img src="assets/icons/snapchat-logo.png" width="25" alt="">
+          </a>
+
+          <a href="https://snapchat.com/t/uFY0xaNo" target="_blank" rel="noopener noreferrer"
+            style="width:38px; height:38px; border-radius:50%; border:1px solid rgba(246,244,238,0.25); display:flex; align-items:center; justify-content:center; color:#F6F4EE; text-decoration:none; transition:0.2s;">
+            <img src="assets/icons/tiktok-logo.png" width="25" alt="">
+          </a>
+        </div>
+      </div>
+
+      <!-- Column 2: Contact -->
+      <div style="flex:1 1 240px; display:flex; flex-direction:column; gap:16px;">
+        <h4
+          style="color:#D9BC86; font-size:13px; letter-spacing:1.5px; text-transform:uppercase; margin:0; font-weight:600;">
+          CONTACT
+        </h4>
+
+        <div style="display:flex; flex-direction:column; gap:14px; color:rgba(246,244,238,0.85);">
+          <!-- Address -->
+          <div style="display:flex; gap:12px; align-items:flex-start;">
+            <svg
+              style="width:18px; height:18px; fill:none; stroke:#D9BC86; stroke-width:2; flex-shrink:0; margin-top:3px;"
+              viewBox="0 0 24 24">
+              <path d="M12 21s-8-7.5-8-12a8 8 0 1 1 16 0c0 4.5-8 12-8 12z" />
+              <circle cx="12" cy="9" r="3" />
+            </svg>
+            <span id="txt-address">address</span>
+          </div>
+
+          <!-- Telephone -->
+          <div style="display:flex; gap:12px; align-items:center;">
+            <svg style="width:18px; height:18px; fill:none; stroke:#D9BC86; stroke-width:2; flex-shrink:0;"
+              viewBox="0 0 24 24">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+            <a href="tel:+971504525189" style="color:inherit; text-decoration:none;">
+              <span dir="ltr" id="txt-phone" style="unicode-bidi:isolate;">phone</span>
+            </a>
+          </div>
+
+          <!-- Email -->
+          <div style="display:flex; gap:12px; align-items:center;">
+            <svg style="width:18px; height:18px; fill:none; stroke:#D9BC86; stroke-width:2; flex-shrink:0;"
+              viewBox="0 0 24 24">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            <a id="txt-email" href="mailto:info@karismamc.com"
+              style="color:inherit; text-decoration:none;">info@karismamc.com</a>
+          </div>
+
+          <!-- WhatsApp -->
+          <div style="display:flex; gap:12px; align-items:center;">
+            <svg style="width:18px; height:18px; fill:none; stroke:#D9BC86; stroke-width:2; flex-shrink:0;"
+              viewBox="0 0 24 24">
+              <path
+                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+            </svg>
+            <a id="whatsaap" href="https://wa.me/971504525189" target="_blank" rel="noopener"
+              style="color:inherit; text-decoration:none;">whatsapp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Column 3: Working Hours & Information -->
+      <div style="flex:1 1 240px; display:flex; flex-direction:column; gap:28px;">
+        <!-- Working Hours -->
+        <div style="display:flex; flex-direction:column; gap:12px;">
+          <h4
+            style="color:#D9BC86; font-size:13px; letter-spacing:1.5px; text-transform:uppercase; margin:0; font-weight:600;">
+            WORKING HOURS
+          </h4>
+          <div style="display:flex; flex-direction:column; gap:6px; color:rgba(246,244,238,0.85);">
+            <div id="txt-working1">workingHours1</div>
+            <div id="txt-working2">workingHours2</div>
+          </div>
+        </div>
+
+        <!-- Information Navigation Links -->
+        <div style="display:flex; flex-direction:column; gap:12px;">
+          <h4
+            style="color:#D9BC86; font-size:13px; letter-spacing:1.5px; text-transform:uppercase; margin:0; font-weight:600;">
+            INFORMATION
+          </h4>
+          <div style="display:flex; flex-direction:column; gap:8px; color:rgba(246,244,238,0.85);">
+            <a href="/hollywood-smile" style="color:inherit; text-decoration:none;">Hollywood Smile</a>
+            <a href="/our-doctors" style="color:inherit; text-decoration:none;">Our Doctors</a>
+            <a href="/privacy-policy" style="color:inherit; text-decoration:none;">Privacy Policy</a>
+            <a href="/terms-conditions" style="color:inherit; text-decoration:none;">Terms & Conditions</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Divider Line -->
+    <div style="max-width:1180px; margin:40px auto 0; border-top:1px solid rgba(246,244,238,0.15);"></div>
+  </footer>
 
   <!-- Javascript -->
   <script>
@@ -394,6 +526,14 @@
         dir: 'rtl',
         strip: 'المواعيد محدودة | لا يوجد وقت انتظار',
         wa: 'واتساب',
+
+        footerText: 'فلسفة كاريزما أن الجمال الحقيقي يكمن في داخل كل إنسان، ومن خلال علاجاتنا المبتكرة والفاخرة نساعد كل شخص على إبراز جاذبيته الطبيعية.',
+        address: 'الراحة ووك، شارع المنتزه، الشارقة، الإمارات ، الشارقة',
+        phone: '+971504525189',
+        email: 'info@karismamc.com',
+        workingHours1: 'الأحد – الخميس · 10:00 صباحًا – 8:00 مساءً',
+        workingHours2: 'السبت · 10:00 صباحًا – 9:00 مساءً',
+
         s8a: 'مب لازم تختار ابتسامتك الآن.',
         s8b: 'ابدأ بمعرفة إيش يناسبك.',
         s8p: 'احجز تقييم ابتسامتك، واعرف حالة أسنانك وتوصية الطبيب قبل ما تقرر.',
@@ -416,7 +556,6 @@
         errPhone: 'من فضلك اكتب رقم هاتف صحيح.',
         errSubmit: 'حدث خطأ في الإرسال. حاول مرة أخرى.',
         errServer: 'تعذر الاتصال بالخادم.',
-        optFeedback: 'Feedback',
         optHollywood: 'ابتسامة هوليود (Hollywood Smile)',
         optImplants: 'زراعة اسنان (Dental Implants)',
         optOrtho: 'تقويم اسنان (Orthodontics)',
@@ -427,6 +566,14 @@
         dir: 'ltr',
         strip: 'Limited appointments | No waiting time',
         wa: 'WhatsApp',
+
+        footerText: 'Karisma philosophy is that true beauty lies within everyone — through innovative, luxurious treatments we help individuals embrace their natural allure and shine in their own way.',
+        address: 'Al Raha Walk, Al Muntazah Street, Sharjah, UAE',
+        phone: '+971504525189',
+        email: 'info@karismamc.com',
+        workingHours1: 'Sunday – Thursday · 10:00 AM – 8:00 PM',
+        workingHours2: 'Saturday · 10:00 AM – 9:00 PM',
+
         s8a: 'You do not have to choose now.',
         s8b: 'Start by knowing what suits you.',
         s8p: 'Book your smile assessment, know your dental condition and doctor recommendation.',
@@ -436,7 +583,7 @@
         namePh: 'Enter your name',
         fPhone: 'Phone Number',
         fEmail: 'Email Address',
-        fDept: 'Service / Contact Type',
+        fDept: 'Service Type',
         fMsg: 'Message',
         msgPh: 'Write your message here...',
         submitBtn: 'Submit Request',
@@ -449,7 +596,6 @@
         errPhone: 'Please enter a valid phone number.',
         errSubmit: 'Failed to submit. Please try again.',
         errServer: 'Could not connect to the server.',
-        optFeedback: 'Feedback',
         optHollywood: 'Hollywood Smile',
         optImplants: 'Dental Implants',
         optOrtho: 'Orthodontics',
@@ -470,6 +616,14 @@
       document.getElementById('txt-s8a').innerText = t.s8a;
       document.getElementById('txt-s8b').innerText = t.s8b;
       document.getElementById('txt-s8p').innerText = t.s8p;
+
+      document.getElementById('txt-footerText').innerText = t.footerText;
+      document.getElementById('txt-address').innerText = t.address;
+      document.getElementById('txt-phone').innerText = t.phone;
+      document.getElementById('txt-email').innerText = t.email;
+      document.getElementById('txt-working1').innerText = t.workingHours1;
+      document.getElementById('txt-working2').innerText = t.workingHours2;
+
       document.getElementById('txt-ctaNote').innerText = t.ctaNote;
       document.getElementById('txt-formTitle').innerText = t.formTitle;
       document.getElementById('txt-fName').innerText = t.fName;
@@ -484,13 +638,12 @@
       document.getElementById('txt-sentTitle').innerText = t.sentTitle;
       document.getElementById('txt-sentBody').innerText = t.sentBody;
 
-      document.getElementById('opt-feedback').innerText = t.optFeedback;
       document.getElementById('opt-hollywood').innerText = t.optHollywood;
       document.getElementById('opt-implants').innerText = t.optImplants;
       document.getElementById('opt-ortho').innerText = t.optOrtho;
       document.getElementById('opt-whitening').innerText = t.optWhitening;
     }
-
+    toggleLanguage()
     document.getElementById('contactForm').addEventListener('submit', function (e) {
       e.preventDefault();
 
@@ -499,7 +652,7 @@
       const email = document.getElementById('email').value.trim();
       const phone = document.getElementById('phone').value.trim();
       const countryCode = document.getElementById('countryCode').value.trim();
-      const contactType = document.getElementById('contactType').value;
+      const services = document.getElementById('services').value;
       const message = document.getElementById('message').value.trim();
 
       const errorMsg = document.getElementById('errorMessage');
@@ -527,8 +680,9 @@
         email: email,
         countryCode: countryCode,
         phone: phone,
-        message: message,
-        contactType: contactType,
+        message: "contact-form-lp " + message,
+        department: services,
+        contactType: 'Enquiry',
         form_type: 'contact'
       };
 
@@ -540,19 +694,19 @@
         },
         body: JSON.stringify(payload)
       })
-      .then(response => {
-        if (response.ok || response.status === 200 || response.status === 201) {
-          document.getElementById('contactForm').style.display = 'none';
-          document.getElementById('successBox').style.display = 'flex';
-        } else {
-          showError(t.errSubmit);
+        .then(response => {
+          if (response.ok || response.status === 200 || response.status === 201) {
+            document.getElementById('contactForm').style.display = 'none';
+            document.getElementById('successBox').style.display = 'flex';
+          } else {
+            showError(t.errSubmit);
+            resetBtn();
+          }
+        })
+        .catch(() => {
+          showError(t.errServer);
           resetBtn();
-        }
-      })
-      .catch(() => {
-        showError(t.errServer);
-        resetBtn();
-      });
+        });
     });
 
     function showError(msg) {
@@ -574,4 +728,5 @@
   </script>
 
 </body>
+
 </html>
